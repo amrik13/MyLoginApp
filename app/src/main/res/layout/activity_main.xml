@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="@drawable/firstimage"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading_text"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/heading_text_size"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+
+        <TextView
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userName_text"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/subHead_text_size"/>
+        <EditText
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:id="@+id/login_userName"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/subHead_text_size"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password_text"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/subHead_text_size"/>
+        <EditText
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:id="@+id/login_password"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/subHead_text_size"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/heading_text_size"
+        android:textSize="@dimen/subHead_text_size"
+        android:text="@string/submit_btn"/>
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+    <string name="heading_text">Login Here!</string>
+    <string name="userName_text">User Name:</string>
+    <string name="password_text">Password:</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="empty_input_toast">Please Add User Name or Password</string>
+    <string name="invalid_input_toast">Enter Valid Input</string>
+</resources>
